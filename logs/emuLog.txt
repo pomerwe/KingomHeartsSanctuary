@@ -2,13 +2,13 @@ PCSX2 1.4.0-20160105132032- compiled on Jan  5 2016
 Savestate version: 0x9a0b0000
 
 Host Machine Init:
-	Operating System =  Microsoft Windows 10 Pro (build 15063), 64-bit
-	Physical RAM     =  8136 MB
-	CPU name         =  Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
-	Vendor/Model     =  GenuineIntel (stepping 03)
-	CPU speed        =  3.299 ghz (4 logical threads)
+	Operating System =  Microsoft Windows 10 Pro (build 17763), 64-bit
+	Physical RAM     =  8069 MB
+	CPU name         =  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+	Vendor/Model     =  GenuineIntel (stepping 09)
+	CPU speed        =  2.711 ghz (4 logical threads)
 	x86PType         =  Standard OEM
-	x86Flags         =  bfebfbff 7ffafbff
+	x86Flags         =  bfebfbff 7ffafbbf
 	x86EFlags        =  2c100000
 
 x86 Features Detected:
@@ -17,15 +17,392 @@ x86 Features Detected:
 Reserving memory for recompilers...
 
 Loading plugins...
-	Binding   GS: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\gsdx32-avx.dll 
-Windows 10.0.15063
-	Binding  PAD: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\lilypad.dll 
-	Binding SPU2: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\spu2-x.dll 
-(GameDB) 9693 games on record (loaded in 230ms)
-	Binding CDVD: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\cdvdGigaherz.dll 
-	Binding  USB: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\USBnull.dll 
-	Binding   FW: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\FWnull.dll 
-	Binding DEV9: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\DEV9null.dll 
+	Binding   GS: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\gsdx32-avx.dll 
+Windows 10.0.17763
+	Binding  PAD: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\lilypad.dll 
+	Binding SPU2: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\spu2-x.dll 
+	Binding CDVD: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\cdvdGigaherz.dll 
+	Binding  USB: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\USBnull.dll 
+	Binding   FW: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\FWnull.dll 
+	Binding DEV9: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\DEV9null.dll 
 Plugins loaded successfully.
 
+(GameDB) 9693 games on record (loaded in 404ms)
+HLE Notice: ELF does not have a path.
+
+
+Initializing plugins...
+	Init GS
+Windows 10.0.17763
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+Current Renderer: Direct3D11 (Hardware mode)
+	Opening CDVD
+isoFile open ok: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\NEW-KH.iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1771343 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\memcards\Jeremy's.ps2
+McdSlot 1 [File]: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\memcards\Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+	Bios Found: USA     v02.00(14/06/2004)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59,94 fps
+# Initialize memory (rev:3.70, ctm:392Mhz, cpuclk:294Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2004-0614, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20040614-100909,ROMconf,PS20200AC20040614.bin:11696>
+# Total accessable memory size: 32 MB (B:2:8:0) (370:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Feb  6 2003 08:38:48
+  CPUID=2e20, BoardID=0, ROMGEN=2004-0614, 32M
+
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname rom0:OSDSYS secname all
+loadelf version 3.30
+Input ELF format filename = rom0:OSDSYS
+0 00100000 000586dc ......
+Loaded, rom0:OSDSYS
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+ROM directory not found
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+rmreset start
+rmreset end
+clearspu: completed
+Pad Driver for OSD (2000/12/05 18:05) 392, 128
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+read/write allocate memory 4000
+open name rom0:OSDVER flag 1 data 4a978
+open fd = 2
+open name rom0:ROMVER flag 1 data 4a978
+open fd = 2
+open name rom0:XDEV9 flag 1 data 4a978
+open fd = 2
+loadmodule: fname rom0:XDEV9 args 0 arg 
+dev9: unknown dev9 hardware.
+loadmodule: id 32, ret 1
+loadmodule: fname rom0:XDEV9SERV args 0 arg 
+loadmodule: id -200, ret 1
+open name rom0:FONTM flag 1 data 4a978
+open fd = 2
+open name rom0:FNTIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:SNDIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:TEXIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:ICOIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:TZLIST flag 1 data 4a978
+open fd = 2
+_spu_rev_offsetaddr 1f9021
+### addr = 1034255  size = 28640
+_spu_rev_offsetaddr 1d9021
+### addr = 968719  size = 28640
+open name rom0:ROMVER flag 1 data 4a978
+open fd = 2
+get val add 3c0 type 2 ret 1ff000
+get val add 1ff000 type 2 ret 0
+open name rom0:PS1ID flag 1 data 4a978
+open fd = 2
+open name rom0:PS1VERA flag 1 data 4a978
+open fd = 2
+open name rom1:DVDID flag 1 data 4a978
+open fd = -6
+Savestate slot 0 is empty.
+Savestate slot 0 is empty.
+Saving savestate to slot 0...
+	filename: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\sstates\BIOS (00000000).00.p2s
+	Saving GS
+	Saving PAD
+	Saving SPU2
+ExecutePs2GameDisk
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLPS_251.98;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLPS_251.98;1) Game CRC = 0xBD3FB233, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLPS_251.98;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+open name cdrom0:¥SYSTEM.CNF;1 flag 4 data 4a978
+open fd = 2
+# Restart.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Restart Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname rom0:PS2LOGO secname all
+loadelf version 3.30
+Input ELF format filename = rom0:PS2LOGO
+0 01000000 00019bf0 ..
+Loaded, rom0:PS2LOGO
+start address 0x1000008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+# Restart Without Memory Clear.
+(gzipThread) Data saved to disk without error.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+read/write allocate memory 4000
+open name rom0:ROMVER flag 1 data 44078
+open fd = 2
+loadmodule: fname rom0:OSDSND args 0 arg 
+loadmodule: id 25, ret 0
+_spu_rev_offsetaddr 1dfff1
+### addr = 2097120  size = 32
+_spu_rev_offsetaddr 1f9021
+### addr = 1034255  size = 28640
+# Restart.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Restart Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLPS_251.98;1 secname all
+loadelf version 3.30
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLPS_251.98;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+Input ELF format filename = cdrom0:¥SLPS_251.98;1
+1 00100000 00394068 ..........................................................
+Loaded, cdrom0:¥SLPS_251.98;1
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+cdvd driver module version 0.1.1 (C)SCEI
+loadmodule: fname cdrom0:¥SIO2MAN.IRX args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥SIO2D.IRX args 0 arg 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥DBCMAN.IRX args 0 arg 
+loadmodule: id 27, ret 0
+loadmodule: fname cdrom0:¥DS2O.IRX args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥DS2O.IRX args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥MCMAN.IRX args 0 arg 
+loadmodule: id 30, ret 2
+loadmodule: fname cdrom0:¥MCSERV.IRX args 0 arg 
+loadmodule: id 31, ret 2
+loadmodule: fname cdrom0:¥LIBSD.IRX args 0 arg 
+loadmodule: id 32, ret 0
+loadmodule: fname cdrom0:¥LIBSSL.IRX args 0 arg 
+[44mSquareSounds SoundDriver Apr 26 2002 12:15:13[0m
+loadmodule: id 33, ret 2
+loadmodule: fname cdrom0:¥DEV9.IRX args 0 arg 
+dev9: unknown dev9 hardware.
+loadmodule: id 34, ret 1
+loadmodule: fname cdrom0:¥ATAD.IRX args 0 arg 
+loadmodule: id -200, ret 1
+041a00:041a00 03bfd8:03c000:03bfd8 0000:0000 1:00000 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000139:[0mSeStandby   bank( 2) count(  1)
+[44msound:000140:[0mWaveStandby bank( 2) no(   0) spu(1c6900-1f522f) size( 2e930)
+041a00:041a00 03bfd8:035de0:035da8 0000:0000 1:00000 3:000 4:000 5:000 6:0000 7:0000 8:0000
+041a00:041a00 03bfd8:035de0:035da8 0000:0000 1:00000 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000255:[0mSeStandby   bank(-8) count(  1)
+[44msound:000256:[0mWaveStandby bank(-8) no(1003) spu(128900-1535cf) size( 2acd0)
+041a00:041a00 03bfd8:035a60:035a18 0000:0000 1:00000 3:000 4:000 5:000 6:0000 7:0000 8:0380
+[44msound:000291:[0mBgmStandby  bank( 0) no( 110) 
+[44msound:000293:[0mWaveStandby bank( 0) no( 110) spu(020000-08a44f) size( 6a450)
+041a00:041a00 03bfd8:0350a0:035048 09c0:0000 1:00000 3:000 4:000 5:000 6:0000 7:0000 8:0380
+Saving savestate to slot 0...
+	filename: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\sstates\SLPS-25198 (BD3FB233).00.p2s
+	Saving GS
+	Saving PAD
+	Saving SPU2
+(gzipThread) Data saved to disk without error.
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Plugins closed successfully.
+Shutting down plugins...
+Plugins shutdown successfully.
 (GameDB) Unloading...
