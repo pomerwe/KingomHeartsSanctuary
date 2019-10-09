@@ -1,0 +1,31 @@
+PCSX2 1.4.0-20160105132032- compiled on Jan  5 2016
+Savestate version: 0x9a0b0000
+
+Host Machine Init:
+	Operating System =  Microsoft Windows 10 Pro (build 15063), 64-bit
+	Physical RAM     =  8136 MB
+	CPU name         =  Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz
+	Vendor/Model     =  GenuineIntel (stepping 03)
+	CPU speed        =  3.299 ghz (4 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbff
+	x86EFlags        =  2c100000
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+
+Reserving memory for recompilers...
+
+Loading plugins...
+	Binding   GS: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\gsdx32-avx.dll 
+Windows 10.0.15063
+	Binding  PAD: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\lilypad.dll 
+	Binding SPU2: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\spu2-x.dll 
+(GameDB) 9693 games on record (loaded in 230ms)
+	Binding CDVD: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\cdvdGigaherz.dll 
+	Binding  USB: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\USBnull.dll 
+	Binding   FW: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\FWnull.dll 
+	Binding DEV9: C:\Program Files (x86)\PCSX2 1.4.0\Plugins\DEV9null.dll 
+Plugins loaded successfully.
+
+(GameDB) Unloading...

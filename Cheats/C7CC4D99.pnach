@@ -1,0 +1,10 @@
+gametitle=Kingdom Hearts II [SLUS 21005] (U)
+// Infinite Drive Gauge
+patch=1,EE,01c95309,byte,00000009
+// Infinite Form Gauge
+patch=1,EE,01C9530E,byte,00000015
+// Recharge Magic Immediately
+patch=1,EE,01c95316,byte,00000000
+// Max/Infinite Health - Sora
+patch=1,EE,01C95158,byte,00000078
+patch=1,EE,01C9515C,byte,00000078
