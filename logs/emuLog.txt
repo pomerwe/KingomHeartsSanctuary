@@ -6,7 +6,7 @@ Host Machine Init:
 	Physical RAM     =  8069 MB
 	CPU name         =  Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
 	Vendor/Model     =  GenuineIntel (stepping 09)
-	CPU speed        =  2.711 ghz (4 logical threads)
+	CPU speed        =  2.715 ghz (4 logical threads)
 	x86PType         =  Standard OEM
 	x86Flags         =  bfebfbff 7ffafbbf
 	x86EFlags        =  2c100000
@@ -18,14 +18,569 @@ Reserving memory for recompilers...
 
 Loading plugins...
 	Binding   GS: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\gsdx32-avx.dll 
-	Binding  PAD: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\lilypad.dll 
 Windows 10.0.17763
+	Binding  PAD: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\lilypad.dll 
 	Binding SPU2: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\spu2-x.dll 
 	Binding CDVD: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\cdvdGigaherz.dll 
+(GameDB) 9693 games on record (loaded in 198ms)
 	Binding  USB: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\USBnull.dll 
 	Binding   FW: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\FWnull.dll 
 	Binding DEV9: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\Plugins\DEV9null.dll 
 Plugins loaded successfully.
 
-(GameDB) 9693 games on record (loaded in 183ms)
+HLE Notice: ELF does not have a path.
+
+
+Initializing plugins...
+	Init GS
+Windows 10.0.17763
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Opening plugins...
+	Opening GS
+	Opening PAD
+	Opening SPU2
+Current Renderer: Direct3D11 (Hardware mode)
+	Opening CDVD
+isoFile open ok: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\NEW-KH.iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1771343 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\memcards\Jeremy's.ps2
+McdSlot 1 [File]: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\memcards\Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+	Bios Found: USA     v02.00(14/06/2004)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59,94 fps
+# Initialize memory (rev:3.70, ctm:392Mhz, cpuclk:294Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2004-0614, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20040614-100909,ROMconf,PS20200AC20040614.bin:11696>
+# Total accessable memory size: 32 MB (B:2:8:0) (370:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Feb  6 2003 08:38:48
+  CPUID=2e20, BoardID=0, ROMGEN=2004-0614, 32M
+
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname rom0:OSDSYS secname all
+loadelf version 3.30
+Input ELF format filename = rom0:OSDSYS
+0 00100000 000586dc ......
+Loaded, rom0:OSDSYS
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+ROM directory not found
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+rmreset start
+rmreset end
+clearspu: completed
+Pad Driver for OSD (2000/12/05 18:05) 392, 128
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+read/write allocate memory 4000
+open name rom0:OSDVER flag 1 data 4a978
+open fd = 2
+open name rom0:ROMVER flag 1 data 4a978
+open fd = 2
+open name rom0:XDEV9 flag 1 data 4a978
+open fd = 2
+loadmodule: fname rom0:XDEV9 args 0 arg 
+dev9: unknown dev9 hardware.
+loadmodule: id 32, ret 1
+loadmodule: fname rom0:XDEV9SERV args 0 arg 
+loadmodule: id -200, ret 1
+open name rom0:FONTM flag 1 data 4a978
+open fd = 2
+open name rom0:FNTIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:SNDIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:TEXIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:ICOIMAGE flag 1 data 4a978
+open fd = 2
+open name rom0:TZLIST flag 1 data 4a978
+open fd = 2
+_spu_rev_offsetaddr 1f9021
+### addr = 1034255  size = 28640
+_spu_rev_offsetaddr 1d9021
+### addr = 968719  size = 28640
+open name rom0:ROMVER flag 1 data 4a978
+open fd = 2
+get val add 3c0 type 2 ret 1ff000
+get val add 1ff000 type 2 ret 0
+open name rom0:PS1ID flag 1 data 4a978
+open fd = 2
+open name rom0:PS1VERA flag 1 data 4a978
+open fd = 2
+open name rom1:DVDID flag 1 data 4a978
+open fd = -6
+ExecutePs2GameDisk
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLPS_251.98;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+ELF (cdrom0:\SLPS_251.98;1) Game CRC = 0xBD3FB233, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLPS_251.98;1
+(SYSTEM.CNF) Software version = 1.00
+(SYSTEM.CNF) Disc region type = NTSC
+open name cdrom0:¥SYSTEM.CNF;1 flag 4 data 4a978
+open fd = 2
+# Restart.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Restart Done.
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname rom0:PS2LOGO secname all
+loadelf version 3.30
+Input ELF format filename = rom0:PS2LOGO
+0 01000000 00019bf0 ..
+Loaded, rom0:PS2LOGO
+start address 0x1000008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+read/write allocate memory 4000
+open name rom0:ROMVER flag 1 data 44078
+open fd = 2
+loadmodule: fname rom0:OSDSND args 0 arg 
+loadmodule: id 25, ret 0
+_spu_rev_offsetaddr 1dfff1
+### addr = 2097120  size = 32
+_spu_rev_offsetaddr 1f9021
+### addr = 1034255  size = 28640
+(FrameLimiter) DISABLED.
+(FrameLimiter) ENABLED.
+Loading savestate from slot 0...
+	filename: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\sstates\SLPS-25198 (BD3FB233).00.p2s
+EE/iR5900-32 Recompiler Reset
+	Loading GS
+	Loading PAD
+	Loading SPU2
+041a00:041a00 03bfd8:025044:0237b8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:10f8
+[44msound:495028:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:495030:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:024d78:023460 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:10f8
+[44msound:495311:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:024918:022f40 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:10f8
+[44msound:495344:[0mWaveStandby bank(-6) no( 312) spu(12d900-1321cf) size(  48d0)
+[44msound:495346:[0mSeStandby   bank(-6) count(  9)
+041a00:041a00 03bfd8:0246f8:022cb0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:094c 7:144c 8:10f8
+[44msound:495478:[0mWaveStandby bank(-6) no( 313) spu(132900-13701f) size(  4720)
+[44msound:495480:[0mSeStandby   bank(-6) count( 13)
+041a00:041a00 03bfd8:024458:022980 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0bec 7:144c 8:10f8
+[44msound:495598:[0mWaveStandby bank(-6) no( 322) spu(137900-13c39f) size(  4aa0)
+[44msound:495600:[0mSeStandby   bank(-6) count( 14)
+041a00:041a00 03bfd8:024098:022530 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0fac 7:144c 8:10f8
+[13:26:38.095] Auto-ejecting memcard [port:0, slot:0]
+[13:26:38.822] Re-inserting auto-ejected memcard [port:0, slot:0]
+041a00:041a00 03bfd8:025044:0237b8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:10f8
+[44msound:755024:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:755026:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:024d78:023460 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:10f8
+[44msound:755380:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:024918:022f40 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:10f8
+[44msound:755564:[0mSeStandby   bank(-8) count(  9)
+041a00:041a00 03bfd8:026684:025098 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:0f04
+(FrameLimiter) DISABLED.
+(FrameLimiter) ENABLED.
+(FrameLimiter) DISABLED.
+(FrameLimiter) ENABLED.
+(FrameLimiter) DISABLED.
+[44msound:788495:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:026224:024b78 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0460 7:0000 8:0f04
+[44msound:788500:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:788502:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025f58:024820 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:0000 8:0f04
+[44msound:000026:[0mSeStandby   bank(-1) count(199)
+[44msound:000027:[0mWaveStandby bank(-1) no( 202) spu(1a2900-1c63cf) size( 23ad0)
+[44msound:000028:[0mWaveStandby bank(-1) no( 602) spu(154900-1a10bf) size( 4c7c0)
+041a00:041a00 03bfd8:0319a4:031180 0000:0000 1:0443c 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000278:[0mBgmStandby  bank( 1) no( 102) 
+[44msound:000280:[0mWaveStandby bank( 1) no( 102) spu(095480-10a2ef) size( 74e70)
+041a00:041a00 03bfd8:02e1c4:02d990 0000:37e0 1:0443c 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000317:[0mBgmStandby  bank( 0) no( 100) 
+[44msound:000319:[0mWaveStandby bank( 0) no( 100) spu(020000-09441f) size( 74420)
+041a00:041a00 03bfd8:02db94:02d350 0630:37e0 1:0443c 3:000 4:000 5:000 6:0000 7:0000 8:0000
+041a00:041a00 03bfd8:02db94:02d350 0630:37e0 1:0443c 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000455:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:02d734:02ce30 0630:37e0 1:0443c 3:000 4:000 5:000 6:0460 7:0000 8:0000
+041a00:041a00 03bfd8:02d734:02ce30 0630:37e0 1:0443c 3:000 4:000 5:000 6:0460 7:0000 8:0000
+[44msound:000509:[0mWaveStandby bank(-3) no( 504) spu(10a900-10ffff) size(  5700)
+[44msound:000513:[0mSeStandby   bank(-3) count( 40)
+041a00:041a00 03bfd8:02ca9c:02bff0 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0460 7:0000 8:0000
+[44msound:000585:[0mSeStandby   bank(-8) count( 20)
+[44msound:000585:[0mWaveStandby bank(-8) no(1043) spu(128900-139b4f) size( 11250)
+041a00:041a00 03bfd8:02bb2c:02b070 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0000 7:0000 8:13d0
+[44msound:000639:[0mWaveStandby bank( 0) no( 143) spu(020000-093fff) size( 74000)
+041a00:041a00 03bfd8:02b9ac:02aef0 07b0:37e0 1:0443c 3:c98 4:000 5:000 6:0000 7:0000 8:13d0
+[44msound:000662:[0mBgmStandby  bank( 0) no( 143) 
+041a00:041a00 03bfd8:02ae16:02a358 1346:37e0 1:0443c 3:c98 4:000 5:000 6:0000 7:0000 8:13d0
+[44msound:017489:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:02a9b6:029e38 1346:37e0 1:0443c 3:c98 4:000 5:000 6:0460 7:0000 8:13d0
+[44msound:017782:[0mBgmStandby  bank( 0) no( 100) 
+[44msound:017784:[0mWaveStandby bank( 0) no( 100) spu(020000-09441f) size( 74420)
+041a00:041a00 03bfd8:02b6cc:02ab50 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0460 7:0000 8:13d0
+041a00:041a00 03bfd8:02bb2c:02b070 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0000 7:0000 8:13d0
+[44msound:018009:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:02b6cc:02ab50 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0460 7:0000 8:13d0
+[44msound:018131:[0mSeStandby   bank(-8) count( 20)
+[44msound:018131:[0mWaveStandby bank(-8) no(1043) spu(128900-139b4f) size( 11250)
+041a00:041a00 03bfd8:02bb2c:02b070 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0000 7:0000 8:13d0
+[44msound:033962:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:02b6cc:02ab50 0630:37e0 1:0443c 3:c98 4:000 5:000 6:0460 7:0000 8:13d0
+[44msound:000066:[0mSeStandby   bank(-1) count(501)
+[44msound:000067:[0mWaveStandby bank(-1) no( 200) spu(1a2900-1c66ff) size( 23e00)
+[44msound:000068:[0mWaveStandby bank(-1) no( 600) spu(154900-1a270f) size( 4de10)
+041a00:041a00 03bfd8:02c9e0:02b618 0000:0000 1:09400 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000389:[0mBgmStandby  bank( 1) no( 119) 
+[44msound:000391:[0mWaveStandby bank( 1) no( 119) spu(095480-10902f) size( 73bb0)
+041a00:041a00 03bfd8:029d00:028928 0000:2ce0 1:09400 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000430:[0mBgmStandby  bank( 0) no( 105) 
+[44msound:000431:[0mWaveStandby bank( 0) no( 105) spu(020000-094d2f) size( 74d30)
+041a00:041a00 03bfd8:028220:026e38 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0000 7:0000 8:0000
+041a00:041a00 03bfd8:028220:026e38 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0000 7:0000 8:0000
+041a00:041a00 03bfd8:028220:026e38 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0000 7:0000 8:0000
+[44msound:000629:[0mWaveStandby bank(-6) no( 312) spu(128900-12d1cf) size(  48d0)
+[44msound:000630:[0mSeStandby   bank(-6) count(  9)
+041a00:041a00 03bfd8:028000:026ba8 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0220 7:0000 8:0000
+[44msound:000773:[0mWaveStandby bank(-6) no( 313) spu(12d900-13201f) size(  4720)
+[44msound:000775:[0mSeStandby   bank(-6) count( 13)
+041a00:041a00 03bfd8:027d60:026878 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:04c0 7:0000 8:0000
+[44msound:000878:[0mWaveStandby bank(-6) no( 322) spu(132900-13739f) size(  4aa0)
+[44msound:000880:[0mSeStandby   bank(-6) count( 14)
+041a00:041a00 03bfd8:0279a0:026428 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0880 7:0000 8:0000
+[44msound:000961:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:027540:025f08 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0ce0 7:0000 8:0000
+041a00:041a00 03bfd8:027540:025f08 1ae0:2ce0 1:09400 3:000 4:000 5:000 6:0ce0 7:0000 8:0000
+[44msound:001014:[0mWaveStandby bank(-3) no( 504) spu(10a900-10ffff) size(  5700)
+[44msound:001020:[0mSeStandby   bank(-3) count( 40)
+041a00:041a00 03bfd8:0268a8:0250c8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0ce0 7:0000 8:0000
+[44msound:002897:[0mWaveStandby bank(-7) no( 406) spu(146900-153fcf) size(  d6d0)
+[44msound:002905:[0mSeStandby   bank(-7) count( 46)
+041a00:041a00 03bfd8:02545c:023a90 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0ce0 7:144c 8:0000
+(FrameLimiter) ENABLED.
+(FrameLimiter) DISABLED.
+041a00:041a00 03bfd8:02613c:0249c0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0000
+[44msound:027187:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025cdc:0244a0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0460 7:144c 8:0000
+[44msound:032070:[0mSeStandby   bank(-8) count(  6)
+[44msound:032071:[0mWaveStandby bank(-8) no(1046) spu(128900-13273f) size(  9e40)
+041a00:041a00 03bfd8:02725c:025c88 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:032c
+[44msound:032879:[0mBgmStandby  bank( 0) no( 178) 
+041a00:041a00 03bfd8:02848b:026eb0 08b1:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:032c
+[44msound:033448:[0mWaveStandby bank( 0) no( 178) spu(020000-093bdf) size( 73be0)
+041a00:041a00 03bfd8:0284eb:026f10 0851:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:032c
+[44msound:034256:[0mBgmStandby  bank( 1) no( 168) 
+041a00:041a00 03bfd8:02a34c:028d70 0851:0e7f 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:032c
+[44msound:035643:[0mWaveStandby bank( 1) no( 166) spu(095480-1086df) size( 73260)
+041a00:041a00 03bfd8:02a7ac:0291d0 0851:0a1f 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:032c
+[44msound:058907:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:02a34c:028cb0 0851:0a1f 1:09400 3:c98 4:000 5:000 6:0460 7:0000 8:032c
+[44msound:059216:[0mBgmStandby  bank( 1) no( 119) 
+[44msound:059218:[0mWaveStandby bank( 1) no( 119) spu(095480-10902f) size( 73bb0)
+041a00:041a00 03bfd8:02808b:0269f0 0851:2ce0 1:09400 3:c98 4:000 5:000 6:0460 7:0000 8:032c
+[44msound:059257:[0mBgmStandby  bank( 0) no( 105) 
+[44msound:059259:[0mWaveStandby bank( 0) no( 105) spu(020000-094d2f) size( 74d30)
+041a00:041a00 03bfd8:026dfc:025768 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0460 7:0000 8:032c
+[44msound:059393:[0mWaveStandby bank(-7) no( 406) spu(146900-153fcf) size(  d6d0)
+[44msound:059400:[0mSeStandby   bank(-7) count( 46)
+041a00:041a00 03bfd8:0259b0:024130 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0460 7:144c 8:032c
+041a00:041a00 03bfd8:025e10:024650 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:032c
+[44msound:064229:[0mWaveStandby bank(-6) no( 312) spu(128900-12d1cf) size(  48d0)
+[44msound:064230:[0mSeStandby   bank(-6) count(  9)
+041a00:041a00 03bfd8:025bf0:0243c0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0220 7:144c 8:032c
+[44msound:064245:[0mWaveStandby bank(-6) no( 313) spu(12d900-13201f) size(  4720)
+[44msound:064247:[0mSeStandby   bank(-6) count( 13)
+041a00:041a00 03bfd8:025950:024090 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:04c0 7:144c 8:032c
+[44msound:064261:[0mWaveStandby bank(-6) no( 322) spu(132900-13739f) size(  4aa0)
+[44msound:064263:[0mSeStandby   bank(-6) count( 14)
+041a00:041a00 03bfd8:025590:023c40 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0880 7:144c 8:032c
+[44msound:064344:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025130:023720 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0ce0 7:144c 8:032c
+041a00:041a00 03bfd8:025e10:024650 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:032c
+[44msound:067929:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:067931:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025b44:0242f8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:032c
+[44msound:068041:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:068041:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025b44:0242f8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:032c
+[44msound:068420:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:0256e4:023dd8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:032c
+(FrameLimiter) ENABLED.
+[44msound:069613:[0mSeStandby   bank(-8) count(  3)
+041a00:041a00 03bfd8:027480:025ed0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:0108
+(FrameLimiter) DISABLED.
+[44msound:081420:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:027020:0259b0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0460 7:0000 8:0108
+[44msound:081424:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:081426:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:026d54:025658 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:0000 8:0108
+[44msound:081432:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:081432:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:026d54:025658 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:0000 8:0108
+(FrameLimiter) ENABLED.
+(FrameLimiter) DISABLED.
+041a00:041a00 03bfd8:027480:025ed0 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:0108
+[44msound:099808:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:099810:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:0271b4:025b78 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:0000 8:0108
+[44msound:099824:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:099824:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:0271b4:025b78 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:0000 8:0108
+[44msound:099843:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:026d54:025658 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:0000 8:0108
+[44msound:100114:[0mWaveStandby bank(-7) no( 406) spu(146900-153fcf) size(  d6d0)
+[44msound:100122:[0mSeStandby   bank(-7) count( 46)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+(FrameLimiter) ENABLED.
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:116882:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:116884:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:116898:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:116898:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:116917:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:136345:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:136347:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:136361:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:136361:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:136380:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+(FrameLimiter) DISABLED.
+(FrameLimiter) ENABLED.
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:154175:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:154177:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:154191:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:154191:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:154210:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:168037:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:168039:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:168053:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:168053:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:168072:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+(FrameLimiter) DISABLED.
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:190775:[0mWaveStandby bank(-6) no( 312) spu(128900-12d1cf) size(  48d0)
+[44msound:190776:[0mSeStandby   bank(-6) count(  9)
+041a00:041a00 03bfd8:025e14:024608 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0220 7:144c 8:0108
+[44msound:190920:[0mWaveStandby bank(-6) no( 313) spu(12d900-13201f) size(  4720)
+[44msound:190922:[0mSeStandby   bank(-6) count( 13)
+041a00:041a00 03bfd8:025b74:0242d8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:04c0 7:144c 8:0108
+[44msound:191024:[0mWaveStandby bank(-6) no( 322) spu(132900-13739f) size(  4aa0)
+[44msound:191026:[0mSeStandby   bank(-6) count( 14)
+041a00:041a00 03bfd8:0257b4:023e88 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0880 7:144c 8:0108
+[44msound:191107:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025354:023968 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0ce0 7:144c 8:0108
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:198439:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:198441:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:198567:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:198567:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:198899:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:218828:[0mWaveStandby bank(-6) no( 312) spu(128900-12d1cf) size(  48d0)
+[44msound:218829:[0mSeStandby   bank(-6) count(  9)
+041a00:041a00 03bfd8:025e14:024608 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0220 7:144c 8:0108
+[44msound:218972:[0mWaveStandby bank(-6) no( 313) spu(12d900-13201f) size(  4720)
+[44msound:218974:[0mSeStandby   bank(-6) count( 13)
+041a00:041a00 03bfd8:025b74:0242d8 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:04c0 7:144c 8:0108
+[44msound:219076:[0mWaveStandby bank(-6) no( 322) spu(132900-13739f) size(  4aa0)
+[44msound:219078:[0mSeStandby   bank(-6) count( 14)
+041a00:041a00 03bfd8:0257b4:023e88 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0880 7:144c 8:0108
+[44msound:219159:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025354:023968 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0ce0 7:144c 8:0108
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:230791:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:230793:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:230920:[0mWaveStandby bank(-6) no( 319) spu(12d900-131f3f) size(  4640)
+[44msound:230920:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:231267:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+041a00:041a00 03bfd8:026034:024898 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:0000 7:144c 8:0108
+[44msound:240273:[0mWaveStandby bank(-6) no( 319) spu(128900-12cf3f) size(  4640)
+[44msound:240275:[0mSeStandby   bank(-6) count( 12)
+041a00:041a00 03bfd8:025d68:024540 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:02cc 7:144c 8:0108
+[44msound:240508:[0mSeStandby   bank(-6) count( 21)
+041a00:041a00 03bfd8:025908:024020 1ae0:2ce0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+[44msound:240588:[0mWaveStandby bank( 1) no( 160) spu(095480-10725f) size( 71de0)
+041a00:041a00 03bfd8:025a18:024130 1ae0:2bd0 1:09400 3:c98 4:000 5:000 6:072c 7:144c 8:0108
+[44msound:240732:[0mSeStandby   bank(-8) count(  1)
+041a00:041a00 03bfd8:02763c:0260a0 1ae0:2bd0 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:005c
+[44msound:240853:[0mBgmStandby  bank( 1) no( 160) 
+041a00:041a00 03bfd8:029410:027e70 1ae0:0dfc 1:09400 3:c98 4:000 5:000 6:0000 7:0000 8:005c
+	Backing up existing state in slot 0.
+Saving savestate to slot 0...
+	filename: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\sstates\SLPS-25198 (BD3FB233).00.p2s
+	Saving GS
+	Saving PAD
+	Saving SPU2
+(FrameLimiter) ENABLED.
+Savestate slot 0 is empty.
+(FrameLimiter) DISABLED.
+Savestate slot 0 is empty.
+Savestate slot 0 is empty.
+(gzipThread) Data saved to disk without error.
+Loading savestate from slot 0...
+	filename: C:\Users\estevao.vieira\Documents\secret\KhSanc\Brantleys_PCSX2\KingomHeartsSanctuary\sstates\SLPS-25198 (BD3FB233).00.p2s
+EE/iR5900-32 Recompiler Reset
+	Loading GS
+	Loading PAD
+	Loading SPU2
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Plugins closed successfully.
+Shutting down plugins...
+Plugins shutdown successfully.
 (GameDB) Unloading...
